@@ -17,7 +17,6 @@ const TabIcon = ({ name, iconName, focused }: any) => {
     return (
         <View className='size-full justify-center items-center mt-4 rounded-full'>
             <Image source={iconName} tintColor="#A8B5DB" className='size-5' />
-
         </View>
     )
 }
@@ -40,8 +39,8 @@ export default function _layout() {
                 height: 52,
                 position: "absolute",
                 overflow: "hidden",
-                borderWidth: 1,
-                borderColor: "#0f0D23"
+                // borderWidth: 1,
+                borderColor: "#0f0D23",
             }
         }}>
             <Tabs.Screen name='index' options={{
